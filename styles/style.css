@@ -24,7 +24,6 @@
 }
 .first-section-description {
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
   font-size: 12px;
   font-weight: 400;
   padding-top: 10px;
@@ -60,7 +59,7 @@
   color: rgba(39, 39, 39, 0.6);
   font-size: 15px;
   font-weight: 400;
-  padding: 0px 450px;
+  padding: 0px 420px;
 }
 .second-section-img {
   padding: 30px 150px;
@@ -78,4 +77,32 @@
 .third-img {
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
+}
+/* third-section-styles */
+.third-section {
+  background: rgba(229, 84, 115, 0.1);
+  width: 1360px;
+  height: 400px;
+  display: flex;
+}
+.third-section-info{
+    padding-top: 200px;
+    padding-left: 200px;
+    align-items: center;
+}
+.third-section-heading {
+  color: #272727;
+  font-size: 25px;
+  font-weight: 700;
+}
+.third-section-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+}
+.off {
+  color: #e55473;
+}
+.third-section-img {
+  padding: 80px 300px 0px 300px;
 }

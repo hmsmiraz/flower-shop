@@ -1,0 +1,41 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.body {
+  font-family: "Lato", sans-serif;
+}
+.first-section {
+  background: rgba(229, 84, 115, 0.1);
+  width: 1360px;
+  height: 640px;
+  display: flex;
+}
+.first-section-info {
+  padding-left: 150px;
+  padding-top: 230px;
+  align-items: end;
+}
+.first-section-heading {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 800;
+}
+.first-section-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.first-section-img {
+  padding: 50px 100px 0px 250px;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  width: 85px;
+  height: 40px;
+  border: none;
+}

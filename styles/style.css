@@ -1,6 +1,6 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0px;
+  padding: 0px;
 }
 .body {
   font-family: "Lato", sans-serif;
@@ -82,13 +82,14 @@
 .third-section {
   background: rgba(229, 84, 115, 0.1);
   width: 1360px;
-  height: 400px;
+  height: 320px;
   display: flex;
 }
-.third-section-info{
-    padding-top: 200px;
-    padding-left: 200px;
-    align-items: center;
+.third-section-info {
+  padding-top: 130px;
+  padding-left: 200px;
+  text-align: center;
+  align-items: center;
 }
 .third-section-heading {
   color: #272727;
@@ -99,10 +100,94 @@
   color: rgba(39, 39, 39, 0.6);
   font-size: 15px;
   font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .off {
   color: #e55473;
 }
-.third-section-img {
-  padding: 80px 300px 0px 300px;
+.btn-primary-third {
+  color: #fff;
+  border-radius: 8px;
+  background: #e55473;
+  width: 95px;
+  height: 40px;
+  border: none;
+  margin-left: 10px;
 }
+.third-section-img {
+  padding: 40px 300px 0px 150px;
+}
+/* fourth-section styles */
+.fourth-section {
+  color: #fff;
+  width: 1320px;
+  height: auto;
+  margin-top: 40px;
+}
+.fourth-section-text {
+  color: #272727;
+  text-align: center;
+}
+.fourth-section-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+.fourth-section-info {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.fourth-section-img {
+  padding-left: 100px;
+  display: flex;
+  gap: 10px;
+}
+/* fifth-section styles */
+.fifth-section {
+  color: #fff;
+  width: 1320px;
+  height: 340px;
+  background-image: url("../img/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  margin: 80px 80px;
+  background-size: 1200px 300px;
+}
+.fifth-section-text {
+  align-items: center;
+  color: #272727;
+  padding-top: 100px;
+  padding-left: 450px;
+}
+.fifth-section-heading {
+  font-size: 35px;
+  font-weight: 700;
+}
+.fifth-section-info {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+}
+.fifth-section-btn {
+  padding-left: 350px;
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.textarea {
+  border-radius: 8px;
+  background: #fff;
+  width: 400px;
+  height: 44px;
+  border: none;
+}
+.btn-primary-fifth {
+  color: #fff;
+  border-radius: 8px;
+  background: #e55473;
+  width: 95px;
+  height: 44px;
+  border: none;
+}
+/*  footer styles */ 

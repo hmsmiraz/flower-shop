@@ -2,15 +2,17 @@
   margin: 0px;
   padding: 0px;
 }
-.body {
+body {
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
 }
 /* first-section styles */
 .first-section {
   background: rgba(229, 84, 115, 0.1);
-  width: 1360px;
+  width: 100dvw;
   height: 640px;
   display: flex;
+  margin-right: 0px;
 }
 .first-section-info {
   padding-left: 150px;
@@ -43,7 +45,7 @@
 /* second-section styles */
 .second-section {
   margin: 20px;
-  width: 1360px;
+  width: 100dvw;
   height: 640px;
   color: #fff;
 }
@@ -81,7 +83,7 @@
 /* third-section-styles */
 .third-section {
   background: rgba(229, 84, 115, 0.1);
-  width: 1360px;
+  width: 100dvw;
   height: 320px;
   display: flex;
 }
@@ -121,7 +123,7 @@
 /* fourth-section styles */
 .fourth-section {
   color: #fff;
-  width: 1320px;
+  width: 100dvw;
   height: auto;
   margin-top: 40px;
 }
@@ -147,7 +149,7 @@
 /* fifth-section styles */
 .fifth-section {
   color: #fff;
-  width: 1320px;
+  width: 100dvw;
   height: 340px;
   background-image: url("../img/Rectangle\ 9.png");
   background-repeat: no-repeat;
@@ -171,7 +173,7 @@
 }
 .fifth-section-btn {
   padding-left: 350px;
-  padding-top: 10px;
+  padding-top: 20px;
   display: flex;
   gap: 10px;
 }
@@ -181,6 +183,7 @@
   width: 400px;
   height: 44px;
   border: none;
+  text-align: center;
 }
 .btn-primary-fifth {
   color: #fff;
@@ -191,3 +194,26 @@
   border: none;
 }
 /*  footer styles */ 
+.footer-container{
+  background: black;
+  width: 100dvw;
+  height: 250px;
+  text-align: center;
+  color: #fff;
+  padding-top: 120px;
+}
+.footer-heading{
+  font-size: 30px;
+  font-weight: 700;
+}
+.footer-info{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px 450px;
+  color: rgb(58, 55, 55);
+}
+.footer-copyright{
+  font-size: 10px;
+  font-weight: 400;
+  color: #272727;
+}
